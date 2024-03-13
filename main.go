@@ -21,5 +21,6 @@ func main() {
 		log.Fatal(err)
 	}
 
+	fmt.Println("Some good news!!!")
 	fmt.Println("Yeah, file was found at: ", fileFound)
 }
